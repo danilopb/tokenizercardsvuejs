@@ -15,7 +15,8 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "jest"
+      "jest",
+      "@heroicons/vue"
     ],
     "paths": {
       "@/*": [
@@ -38,5 +39,6 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "allowJs": true
 }
