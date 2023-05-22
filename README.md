@@ -16,16 +16,24 @@ Make sure you have Node.js and npm installed on your machine.
 
 2. Navigate to the project directory:
 
-cd tokenizercardsapi
+cd tokenizercardsvueJs
 
 3. Install the project dependencies:
 
 npm install
 
-## Project setup
+## Configuration
+
+Before running the application, make sure to configure the necessary environment variables. Follow these steps:
+
+Create a .env file in the root directory of the project.
+
+Inside .env, define the required environment variables according to your needs. Here's an example or you can check the file .env.example in root directory:
+
 ```
-npm install
+VUE_APP_BASE_API_URL="http://localhost:3011/api"
 ```
+The variable VUE_APP_BASE_API_URL contains the url of the api to be communicated with
 
 ### Compiles and hot-reloads for development
 ```
@@ -37,15 +45,7 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
