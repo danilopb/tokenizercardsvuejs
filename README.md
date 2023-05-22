@@ -35,6 +35,16 @@ VUE_APP_BASE_API_URL="http://localhost:3011/api"
 ```
 The variable VUE_APP_BASE_API_URL contains the url of the api to be communicated with
 
+## Usage
+
+To start the API server, run the following command in the project directory:
+```
+npm run serve
+```
+The API server will start listening on the specified port (e.g., 8080).
+
+## Other commands
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
