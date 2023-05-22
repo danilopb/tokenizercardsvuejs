@@ -1,6 +1,2 @@
-import NumberValueObject from "../../../Share/Domain/ValueObjects/NumberValueObject";
-
-export default class CardCvv extends NumberValueObject
-{
-
-}
+import NumberValueObject from "@/Tokenizer/Share/Domain/ValueObject/NumberValueObject";
+export default class CardCvv extends NumberValueObject {}

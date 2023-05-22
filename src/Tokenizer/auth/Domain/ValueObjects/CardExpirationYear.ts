@@ -1,6 +1,2 @@
-import StringValueObject from "../../../Share/Domain/ValueObjects/StringValueObject";
-
-export default class CardExpirationYear extends StringValueObject
-{
-
-}
+import StringValueObject from "@/Tokenizer/Share/Domain/ValueObject/StringValueObject";
+export default class CardExpirationYear extends StringValueObject {}
